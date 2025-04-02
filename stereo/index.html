@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Audio Player</title>
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="controls">
+    <button class="previousBtn">Previous</button>
+    <button class="playPauseBtn">Play</button>
+    <button class="nextBtn">Next</button>
+
+    <input type="range" class="seekBar" min="0" max="100" value="0">
+    <span class="elapsedTime">0:00</span> / <span class="totalTime">0:00</span>
+    <input type="range" class="volumeBar" min="0" max="1" step="0.01" value="1">
+  </div>
+  <canvas class="canvas" width="640" height="480"></canvas>
+  <audio class="audio"></audio>
+
+  <script src="dist/index.js" type="module"></script>
+</body>
+
+</html>

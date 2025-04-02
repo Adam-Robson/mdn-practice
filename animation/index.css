@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.circle {
+    height: calc(100vmin * 0.5);
+    width: calc(100vmin * 0.5);
+    border-radius: 50%;
+    background-color: #333233;
+    position: relative;
+}
+
