@@ -1,0 +1,17 @@
+{
+  "name": "stereo",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "start": "npm run build && npx http-server ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "http-server": "^14.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

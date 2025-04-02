@@ -1,0 +1,22 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button,
+.controls input {
+  margin-right: 10px;
+}
